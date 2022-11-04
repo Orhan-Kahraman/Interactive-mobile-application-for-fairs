@@ -24,18 +24,32 @@ class _AuthScreenState extends State<AuthScreen> with TickerProviderStateMixin {
   @override
   void initState() {
     createAccContent = [
-      const InputField(hint: "Name", iconData: Ionicons.person_outline),
-      const InputField(hint: "E-mail", iconData: Ionicons.mail_outline),
-      const InputField(
-          hint: "Password", iconData: Ionicons.lock_closed_outline),
-      const LoginButton(title: "Sign up"),
+      InputField(
+          hint: "Name",
+          iconData: Ionicons.person_outline,
+          inputType: TextInputType.name),
+      InputField(
+          hint: "E-mail",
+          iconData: Ionicons.mail_outline,
+          inputType: TextInputType.emailAddress),
+      InputField(
+          hint: "Password",
+          iconData: Ionicons.lock_closed_outline,
+          inputType: TextInputType.visiblePassword,
+          isPassword: true),
+      LoginButton(title: "Sign up"),
     ];
 
     loginContent = [
-      const InputField(hint: "E-mail", iconData: Ionicons.mail_outline),
-      const InputField(
+      InputField(
+          hint: "E-mail",
+          iconData: Ionicons.mail_outline,
+          inputType: TextInputType.emailAddress),
+      InputField(
         hint: "Password",
         iconData: Ionicons.lock_closed_outline,
+        inputType: TextInputType.visiblePassword,
+        isPassword: true,
       ),
       const LoginButton(title: "Log in"),
       const ForgotPassword(),
