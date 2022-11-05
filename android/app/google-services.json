@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1036361536030",
+    "project_id": "fair-app-test",
+    "storage_bucket": "fair-app-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036361536030:android:ed4c2cecbf2ba415b0d40f",
+        "android_client_info": {
+          "package_name": "com.example.flutter_tutorial_1_ecommerce_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036361536030-l5ga3l1v52pk02riun9tccds602n9pa6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq5x149lh_5SYmXaskF2Eolk6930FWjV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036361536030-l5ga3l1v52pk02riun9tccds602n9pa6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1036361536030-lmmu0a3krub81nlhj1tcsvofu66con26.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterTutorial1EcommerceApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
